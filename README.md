@@ -1,16 +1,14 @@
 # bloc_sample
+(https://github.com/felangel/bloc/issues/2403)
 
-A new Flutter project.
+[project infomation]
+1. main -> PageA (provide TestCubit)
+2. PageA -> PageB (BlocProvide.value)
+- change TestState using TextField
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+### sample project demo :
+![bloc](https://user-images.githubusercontent.com/26545623/133282932-56e41c30-d620-4106-881e-0406c445561e.gif)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### sample code :
+https://github.com/doitduri/bloc_sample
